@@ -1,0 +1,20 @@
+{
+  "name": "50-states",
+  "version": "1.0.0",
+  "description": "which states have you been to?",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aiden",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "pg": "^8.7.1",
+    "sequelize": "^7.0.0-alpha.2",
+    "sequelize-cli": "^6.3.0"
+  },
+  "devDependencies": {
+    "sqlite3": "^5.0.2"
+  }
+}
