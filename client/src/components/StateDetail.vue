@@ -14,7 +14,7 @@
 			<router-link
 				v-bind:to="{ name: 'StateMap', params: { state: state.name } }"
 			>
-				<img class="map-icon" src="@/assets/map-icon.png" />
+				<img class="map-icon" src="@/assets/map-icon2.png" />
 			</router-link>
 		</div>
 	</div>
@@ -45,7 +45,7 @@ export default {
 	padding: 1rem;
 	height: 8rem;
 	width: 10rem;
-	border: 1px black solid;
+	border: 1px blue solid;
 	border-radius: 0.3rem;
 	background-color: lightcyan;
 }
@@ -58,5 +58,9 @@ export default {
 .map-icon {
 	width: 2rem;
 	height: 2rem;
+}
+
+.state-name {
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 </style>

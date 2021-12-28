@@ -14,12 +14,12 @@
 			</span>
 		</div>
 
-		<p>
+		<p class="headerCredit">
 			header by
-			<a href="https://unsplash.com/@frankiefoto">frank mckenna</a>
+			<a href="https://unsplash.com/@neonbrand">NeONBRAND</a>
 		</p>
 
-		<p>
+		<p class="iconCredit">
 			<a target="_blank" href="https://icons8.com/icon/RpspyEyOEJOU/world-map"
 				>World Map</a
 			>
@@ -37,5 +37,18 @@ export default {
 <style scoped>
 .nav-link {
 	margin: 1rem;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navigation-links {
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.headerCredit {
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.iconCredit {
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 </style>

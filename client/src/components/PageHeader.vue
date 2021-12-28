@@ -16,17 +16,16 @@ export default {
 	margin-bottom: 2rem;
 	border-radius: 0.3rem;
 	background-color: gray;
-	background-image: url('~@/assets/map-header11.jpeg');
+	background-image: url('~@/assets/map-header9.jpeg');
 	background-position: center;
 	background-size: cover;
 }
 
 #title {
-	/* font-family:impact;
-	font-style:italic; */
-	/* font-size: 40px; */
-	/* font-weight: 10; */
-	color: white;
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-style:italic;
+	font-weight: 1000;
+	color: hotpink;
 	-webkit-text-stroke: 1px black;
 }
 </style>
