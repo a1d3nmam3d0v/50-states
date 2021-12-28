@@ -56,8 +56,8 @@ export default {
 }
 
 .map-icon {
-	width: 2rem;
-	height: 2rem;
+	width: 2.5rem;
+	height: 2.5rem;
 }
 
 .state-name {
