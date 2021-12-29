@@ -2,8 +2,8 @@
 	<div class="state-map">
 		<h2>The state of {{ state.name }}</h2>
 
-		<p v-if="state.visited">You have visited this state.</p>
-		<p v-else>You have not visited this state yet.</p>
+		<p v-if="state.visited">You <u>have</u> visited this state.</p>
+		<p v-else>You <u>have not</u> visited this state yet.</p>
 
 		<div id="map-container" v-if="dataReady">
 			<l-map

@@ -25,7 +25,7 @@ export default {
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	font-style:italic;
 	font-weight: 1000;
-	color: hotpink;
+	color: rgb(255, 158, 255);
 	-webkit-text-stroke: 1px black;
 }
 </style>
